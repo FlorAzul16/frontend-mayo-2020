@@ -30,8 +30,8 @@
                 border-radius: 20px;
                 background-color: rgb(255, 176, 72)
             }
-            input:invalid {
-                background-color: coral;
+            .email:invalid {
+                background-color:tomato;
             }
             #login {
                 background-color: burlywood;
@@ -62,7 +62,7 @@
                         <!-- Formulario de Login -->
                         <form class="login-validation" id="login" action="formulario-login.html" method="POST">
                             <label for="usuario">Usuario:</label>
-                            <input 
+                            <input class="email"
                                 id="usuario" 
                                 type="email" 
                                 name="usuario"                                
